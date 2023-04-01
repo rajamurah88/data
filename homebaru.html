@@ -1,0 +1,2383 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+       <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+   <style type="text/css" media="all">
+         
+.menu-lainya-load{
+  width: 96%;
+  min-height: 300px;
+  background-color:#02BC7D ;
+  margin-left: 2%;
+  border-radius: 10px;
+  animation :up_down 2s ease infinite;
+}
+.menu-copyright-load{
+  width: 96%;
+  min-height: 100px;
+  background-color:#02BC7D ;
+  margin-left: 2%;
+  border-radius: 10px;
+  animation :up_down2 2s ease infinite;
+}
+.menu-copyright-news{
+  width: 45%;
+  float: left;
+  margin-right: 2%;
+  min-height: 100px;
+  background-color:#02BC7D ;
+  margin-left: 2%;
+  border-radius: 10px;
+  animation :up_down2 2s ease infinite;
+}
+         
+         /* SLIDER MENU */
+        .jssorl-009-spin img { 
+             animation-name: jssorl-009-spin;
+             animation-duration: 1.6s; 
+             animation-iteration-count:infinite;
+             animation-timing-function: linear;
+            }
+            @keyframes jssorl-009-spin {
+            from {
+            transform: rotate(0deg); 
+            } to { 
+            transform: rotate(360deg); 
+            }}	 		
+            .img-slide { 	
+            border-radius: 30px; 		
+            box-shadow: 0px 1px 5px rgba(0,0,0,0.0);
+            }
+       .jsO{
+         position:relative;
+         margin:0 auto;
+         margin-top:12px;
+         margin-bottom:-30px;
+         top:0px;
+         left:0px;
+         width:900px;
+         height:auto;
+         overflow:hidden;
+         visibility:hidden;
+       }
+       .js1{
+         position:absolute;
+         top:0px;
+         left:0px;
+         width:100%;
+         height:100%;
+         text-align:center;
+         background-color:rgba(0,0,0,0.7);
+       }
+       .js2{
+         cursor:default;
+         position:relative;
+         top:0px;
+         left:0px;
+         width:900px;
+         height:400px;
+         overflow:hidden;
+       }
+       .jsImg{
+         margin-top:-19px;
+         position:relative;
+         top:50%;
+         width:38px;
+         height:38px;
+       }
+       #imgSlider{
+         width: 200%;
+         height: auto;
+       }
+      
+      /* SETTING PANDUAN INFORMASI */
+      .news-konten{
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+        margin-bottom: -30%;
+      }
+      .news-konten h1{
+        margin-left: 5%;
+        font-size: 16px;
+        float: left;
+        margin-right: 45%;
+        font-weight: bold;
+        opacity: 0.8;
+      }
+      .bg-news{
+        width: 100%;
+        height: auto;
+      }
+      .bg-news img{
+        width: 40%;
+        height: 90px;
+        float: left;
+        border-radius: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+      }
+      .active{
+        background-color: #02BC7D;
+      }
+      
+      
+      /* CSS MENU TERBARU */
+      .jarakKontenkonten{
+        margin-top: 95%;
+        width: 100%;
+        background-color: blue;
+      }
+      .terbaruUntukmu{
+        width: 95%;
+        height: auto;
+        margin-left: 2.5%;
+        border-radius: 5px;
+        border: 1px solid rgb(233,233,233);
+      }
+      .terbaruText,.TerbaruButton{
+        width: 45%;
+        min-height: 70px;
+        margin-left: 2.5%;
+        margin-right:2.5% ;
+        float: left;
+        height: auto;
+      }
+      .terbaruText h2{
+        font-size: 16px;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-bottom: -1%;
+        font-weight: bold;
+        opacity: 0.8;
+      }
+      .terbaruText p{
+        font-size: 12px;
+        margin-left: 6%;
+        opacity: 0.9;
+      }
+      .TerbaruButton button{
+        border: 1px solid #02BC7D;
+        margin-top: 11%;
+        margin-left: 30%;
+        background-color: white;
+        color: #02BC7D;
+        padding: 3px;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        outline: none;
+        font-size: 12px;
+        font-weight: bold;
+      }
+      .containerPromo{
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+      }
+      .containerPromo img{
+        width: 15%;
+        height: auto;
+        float: left;
+        margin-right: 10%;
+        border-radius: 50px;
+      }
+      .containerPromo h3{
+        font-size: 15px;
+        margin-bottom: 1%;
+        font-weight: bold;
+        opacity: 0.8;
+      }
+      .containerPromo p{
+        font-size: 12px;
+        font-weight: normal;
+        opacity: 0.7;
+      }
+      .containerPromo button{
+        margin-top: 1%;
+        text-align: center;
+        font-size: 12px;
+        background-color: white;
+        border: 1px solid #02BC7D;
+        margin-bottom: 5%;
+        padding: 7px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-weight: bold;
+        color:#02BC7D ;
+        border-radius: 5px;
+        outline: none;
+      }
+         
+         /* SLIDER MENU */
+      .bgslide {
+        width: 100%;
+        margin-left: -0%;
+        overflow: hidden;
+        overflow-x: hidden;
+      }
+      .sliderBanner {
+        display: flex;
+        width: 130%;
+        margin-top: -25%;
+        margin-left: -12%;
+        margin-right: 13px;
+        overflow-x: auto;
+        scroll-snap-type: mandatory;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+      }
+      .slider::-webkit-scrollbar { width: 100%; margin-left: 0%; margin-right: 0%;}
+      .slider::-webkit-scrollbar-track { background: transparent; }
+      
+      
+      .container-nav{
+        width: 49%;
+        height: auto;
+        float: right;
+      }
+      .container-nav img{
+        width: 13%;
+        height: auto;
+        float: right;
+        margin-top: 8%;
+        margin-left: 1%;
+        margin-right: 5%;
+        opacity: 0.9;
+      }
+      .bgslide{
+        width: 100%;
+        height: 150px;
+        background-color: #02BC7D;
+        padding-top: 17%;
+        padding-left: 10%;
+      }
+      .bgslide1{
+        width: 100%;
+        height: 150px;
+        background-color: #02BC7D;
+        padding-top: 17%;
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+      .carousel-item{
+        border-radius: 10px;
+      }
+      .carousel-item img{
+        border-radius: 10px;
+        width: 100%;
+        height: 140px;
+      }
+      
+      /** SETTING SALDON USER**/
+      .body-atas{
+        width: 100%;
+        height: auto;
+      }
+      .body-atas div{
+        width: 30%;
+        height: 35px;
+        float: left;
+      }
+      .top-up-saldo, .saldo-user{
+        border: 1px solid #02BC7D ;
+        border-left: none;
+        border-top: none;
+        border-bottom: none;
+      }
+      #saldo_user_bo{
+        width: 40%;
+        height: 35px;
+      }
+      #saldo_user_bo img{
+        width: 25%;
+        height: 100%;
+        float: left;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+      
+      .top-up-saldo h3{
+        width: 80%;
+        text-align: center;
+        font-size: 14px;
+        border-radius: 50px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-color: #02BC7D;
+        margin-left: 10%;
+        color: white;
+      }
+     .qris-user img{
+        width: 30%;
+        height: 100%;
+        float: left;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+      .saldo-user h3,.qris-user h3{
+        font-size: 13px;
+        margin-bottom: -1%;
+        padding-top: 2%;
+      }
+      .saldo-user p,.qris-user p{
+        font-size: 10px;
+        opacity: 0.8;
+      }
+      .qris-user{
+        border: 1px solid black;
+        border-left: none;
+        border-top: none;
+        border-bottom: none;
+        border: none;
+      }
+      
+      .menu-home{
+        width: 100%;
+        height: auto;
+        margin-top: 15%;
+      }
+      .container-menu{
+        width: 20%;
+        height: auto;
+        float: left;
+        text-align: center;
+      }
+      .init-klik:hover{
+          transition-delay: 0s;
+          -webkit-animation-name: cssAnimation;
+        -webkit-animation-duration:0.6s;
+        -webkit-animation-iteration-count: 0.8;
+        -webkit-animation-timing-function: ease;
+        -webkit-animation-fill-mode: forwards;
+      }
+      @-webkit-keyframes cssAnimation {
+        0% {
+          opacity: 1;
+          
+          -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+        }
+        25% {
+          opacity: 0.8;
+          -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+        }50% {
+          opacity: 0.4;
+        }
+        
+        75% {
+          opacity: 0.8;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      .container-menu img{
+        width: 80%;
+        height: auto;
+      }
+      .container-menu p{
+        font-size: 13px;
+      }
+      .active{
+        background-color: #02BC7D;
+      }
+         
+      .bgprotek{
+        margin-top: 20px;
+        margin-left: 2%;
+        width: 96%;
+        height: 100px;
+        border: 1px solid rgb(233,233,233);
+        background-color: white;
+        border-radius: 5px;
+      }
+      .imgprotect{
+        width: 70%;
+        height: 45px;
+        margin-bottom: 5px;
+        float: left;
+      }
+      .imgbantuan{
+        width: 30%;
+        height: 45px;
+        float: right;
+        text-align: center;
+      }
+      .imgbantuan p{
+        font-size: 14px;
+        padding-left: 9px;
+        padding-right: 9px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border: 1px solid #02BC7D;
+        color: #02BC7D ;
+        border-radius: 5px;
+        margin-right: 8px;
+        margin-top: 8px;
+      }
+      
+      .imgprotect img{
+        width: 50%;
+        height: 45px;
+        margin-left: 8px;
+        margin-top: 8px;
+        float: left;
+      }
+      .imgket{
+        width: 30%;
+        height: 55px;
+        float: left;
+        margin-left: 3.3%;
+      }
+      .imgket img{
+        width: 30px;
+        height: 30px;
+        margin-top: 8px;
+        float: left;
+        margin-right: 3px;
+      }
+      .imgket p{
+        font-size: 10px;
+        padding-top: 10%;
+      }
+      a{
+        text-decoration: none;
+      }
+      .imgSlider{
+        float: left;
+      }
+      
+       </style>    
+    <style type="text/css" media="all">
+      
+ /* SLIDER MENU */
+        .jssorl-009-spin img { 
+             animation-name: jssorl-009-spin;
+             animation-duration: 1.6s; 
+             animation-iteration-count:infinite;
+             animation-timing-function: linear;
+            }
+            @keyframes jssorl-009-spin {
+            from {
+            transform: rotate(0deg); 
+            } to { 
+            transform: rotate(360deg); 
+            }}	 		
+            .img-slide { 	
+            border-radius: 30px; 		
+            box-shadow: 0px 1px 5px rgba(0,0,0,0.0);
+            }
+       .jsO{
+         position:relative;
+         margin:0 auto;
+         margin-top:12px;
+         margin-bottom:-30px;
+         top:0px;
+         left:0px;
+         width:900px;
+         height:auto;
+         overflow:hidden;
+         visibility:hidden;
+       }
+       .js1{
+         position:absolute;
+         top:0px;
+         left:0px;
+         width:100%;
+         height:100%;
+         text-align:center;
+         background-color:rgba(0,0,0,0.7);
+       }
+       .js2{
+         cursor:default;
+         position:relative;
+         top:0px;
+         left:0px;
+         width:900px;
+         height:400px;
+         overflow:hidden;
+       }
+      .bg-bg-header{
+        width: 100%;
+        min-height: 90px;
+        background-color:#02BC7D;
+        margin-bottom: -23%;
+      }
+       .jsImg{
+         margin-top:-19px;
+         position:relative;
+         top:50%;
+         width:38px;
+         height:38px;
+       }
+       #imgSlider{
+         width: 200%;
+         height: auto;
+       }
+       
+       
+      .header-nav{
+        width: 100%;
+        height: auto;
+        float: height;
+      }
+      .header-nav img{
+        width: 45%;
+        height: auto;
+        margin-bottom: 5%;
+      }
+      .container-nav{
+        width: 49%;
+        height: auto;
+        float: right;
+      }
+      .container-nav img{
+        width: 13%;
+        height: auto;
+        float: right;
+        margin-top: 8%;
+        margin-left: 1%;
+        margin-right: 5%;
+        opacity: 0.9;
+      }
+      .bgslide{
+        width: 100%;
+        height: 150px;
+        background-color: #02BC7D;
+        padding-top: 17%;
+        padding-left: 10%;
+      }
+      .bgslide1{
+        width: 100%;
+        height: 150px;
+        background-color: #02BC7D;
+        padding-top: 17%;
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+      .carousel-item{
+        border-radius: 10px;
+      }
+      .carousel-item img{
+        border-radius: 10px;
+        width: 100%;
+        height: 140px;
+      }
+
+
+
+
+.header-img{
+  width: 100%;
+  min-height: 200px;
+  background-color: #02BC7D;
+  padding: 3%;
+}
+.header{
+  width:70%;
+  min-height: 10%;
+  text-align: left;
+  float: left;
+}
+.header2{
+  width: 25%;
+  min-height: 10%;
+  text-align: right;
+  float: right;
+}
+.header img{
+  width: 0%;
+  height: 5%;
+}
+.header2 img{
+  width: 35%;
+  height: auto;
+  border-radius: 0px;
+  margin-right: 30%;
+  clear: both;
+}
+
+.header-body{
+  width: 45%;
+  height: 30%;
+  margin-top: 5%;
+  float: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+.menu-header1 {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background-color: white;
+  padding-left: 5%;
+}
+.menu-header1 h2{
+  padding-top: 10%;
+  padding-left: 5%;
+  font-size: 0.9rem;
+  margin-bottom: 1%;
+  opacity: 0.8;
+}
+.menu-header1 h1{
+  padding-bottom: 10%;
+  padding-left: 5%;
+  font-size: 1.2rem;
+  opacity: 0.9;
+  font-weight: bold;
+}
+.menu-header{
+  width: 33%;
+  text-align: right;
+  float: left;
+}
+.menu-header img{
+  width: 100%;
+  height: auto;
+  padding: 10%;
+  border-radius: 15px;
+  text-align: center;
+}
+.menu-header h3{
+  font-size: 0.8rem;
+  text-align: center;
+  color: white;
+}
+.inputKonten {
+  width: 90%;
+  margin-left: 5%;
+  background-color: white;
+  position: absolute;
+  margin-top: -12%;
+  border-radius: 15px;
+  box-shadow: rgba(159,159,159,0.445) 0px 1px 3px 1px;
+  text-align: center;
+}
+.bg-body-input{
+  width: 100%;
+  height: auto;
+  padding: 5%;
+}
+.menu-input{
+  width: 33%;
+  float: left;
+  text-align: center;
+  border-bottom: 1px solid rgb(205,205,205);
+}
+.menu-input img{
+  width: 20%;
+  height: auto;
+  float: left;
+  text-align: center;
+  margin-left: 6%;
+  margin-top: -2%;
+}
+.menu-input h1{
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+.body-input{
+  width: 100%;
+  height: auto;
+  padding-bottom: 3%;
+  margin-top: -2%;
+}
+.body-input img{
+  position: absolute;
+  width: 10%;
+  height: auto;
+  text-align: left;
+  margin-top: 9%;
+  margin-left: -93%;
+}
+
+
+.body-input input{
+  width: 70%;
+  margin-left: 2%;
+  padding: 3%;
+  border: none;
+  opacity: 0.7;
+  color: black;
+  font-weight: bold;
+  font-size: 1.3rem;
+  outline: none;
+}
+.spanAlert{
+  width: 100%;
+  height: 10%;
+  text-align: right;
+}
+.spanAlert p{
+  font-size: 0.9rem;
+  margin-top: 2%;
+  font-weight: bold;
+  margin-right: 3%;
+  color: #02BC7D;
+}
+.infoAlert{
+  width: 90%;
+  margin-left: 5%;
+  padding: 5%;
+  background-color: #FFFDE8;
+  min-height: 88px;
+}
+.header-alert{
+  width: 20%;
+  height: auto;
+  float: left;
+  margin-left: 2%;
+  border-radius: 10px;
+}
+.header-alert img{
+  width: 100%;
+  height: auto;
+  padding-bottom: 2%;
+}
+.body-alert{
+  width: 75%;
+  height: auto;
+  float: right;
+}
+.body-alert h1{
+  font-size: 1rem;
+  margin-left: 1%;
+  font-weight: bold;
+}
+.body-alert p{
+  font-size: 0.9rem;
+}
+.header-menu-body{
+  width: 100%;
+  height: auto;
+  padding: 2%;
+  margin-top: 5%;
+}
+.header-menu-body h1{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 2%;
+}
+.menu-konten{
+  width: 20%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  text-align: center;
+  float: left;
+}
+.menu-konten img{
+  width: 70%;
+  height: auto;
+  border-radius: 13px;
+  margin-top: 11%;
+  margin-bottom: 2%;
+}
+.menu-konten h2{
+  font-size: 10.1px;
+  margin-top: 8%;
+  opacity: 0.8;
+  color: #000000;
+  font-family: 'Urbanist', sans-serif;
+ font-weight: 900;
+}
+.img-footer img{
+  margin-top: 10%;
+  width: 90%;
+  height: 100px;
+  margin-left: 5%;
+  border-radius: 10px;
+}
+.end-footer img{
+  width: 90%;
+  margin-left: 5%;
+  height: 150px;
+  margin-top: 10%;
+  border-radius: 10px;
+  margin-bottom: 20%;
+}
+#pulsa{
+  border-bottom: 5px solid #02BC7D;
+}
+#dataAllOperator{
+  display: none;
+}
+    </style>
+    <script src="https://rawcdn.githack.com/modernplay/hostfile/f1a50044e552a32247eb808f8876abbb6bc12554/jssor.slider-kat.min.js" type="text/javascript"></script>
+   <script type="text/javascript"> 
+    window.jssor_1_slider_init = function() { var jssor_1_options = { $AutoPlay: 1, $SlideWidth: 750, $SlideHeight: 320, $SlideSpacing: 20 }; var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options); 
+    /*#region responsive code begin*/ 
+    var MAX_WIDTH = 1200; function ScaleSlider() {
+      var containerElement = jssor_1_slider.$Elmt.parentNode; var containerWidth = containerElement.clientWidth; if (containerWidth) {
+        var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth); jssor_1_slider.$ScaleWidth(expectedWidth);
+        } else { window.setTimeout(ScaleSlider, 30);
+        } } 
+        ScaleSlider(); $Jssor$.$AddEvent(window, "load", ScaleSlider); $Jssor$.$AddEvent(window, "resize", ScaleSlider); $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);}; 
+        
+    </script>
+     <style type="text/css" media="all">
+         .tinggi-konten{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#offcanvasBottomLabel{
+  font-size: 16px;
+  text-align: center;
+  margin-left: 25%;
+  opacity: 0.6;
+  margin-top: -2%;
+}
+.jarakKlik{
+  width: 100%;
+  min-height: 7px;
+  background-color: black;
+  opacity: 0.090;
+}
+.dataKlik{
+  width: 102%;
+  height: 200%;
+  background-color: white;
+  position: absolute;
+  margin-left: -5%;
+  margin-top: -5%;
+  padding-top: 3%;
+}
+.tinggi-konten{
+  margin-top: -90%;
+  height: auto;
+  background-color: white;
+}
+.dataKlik h2{
+  margin-left: 5%;
+  font-size: 14px;
+  opacity: 0.8;
+  float: left;
+}
+.dataKlik h3{
+  margin-left: 5%;
+  font-size: 17px;
+  opacity: 0.8;
+}
+.dataKlik h5{
+  font-size: 14px;
+  margin-left: 5%;
+  float: left;
+  border: 1px solid #02BC7D;
+  padding: 4px;
+  border-radius: 5px;
+  margin-right: 0.5%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  font-weight: normal;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #02BC7D;
+}
+.dataKlik h5:hover{
+  background-color: #02BC7D;
+  color: white;
+}
+
+.dataKlik p{
+  margin-left: 5%;
+  font-size: 14px;
+  opacity: 0.6;
+  text-align: right;
+  margin-right: 6%;
+}
+.cleaning{
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  margin-right: 2%;
+  border: none;
+  background-color: #647282;
+  color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 2%;
+}
+.postdata{
+  margin-top: 2%;
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  margin-right: 2%;
+  border: none;
+  background-color: #02BC7D;
+  color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-align: center;
+  border-radius: 5px;
+}
+/* CSS HEADER */
+.konten_bg{
+  width: 100%;
+  min-height: 50px;
+  top: 0;
+  left: 0;
+  background-color: #02BC7D;
+}
+.konten_header{
+  width: 100%;
+  height: 100%;
+  left: 0;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-top: -10%;
+  background-color: white;
+}
+
+.input_konten{
+  width: 100%;
+  height: auto;
+  padding-top: 2%;
+}
+.input_konten p{
+  margin-top: 5%;
+  margin-left: 2.5%;
+  opacity: 0.8;
+}
+.input_konten span{
+  margin-left: 2.5%;
+  font-size: 10px;
+  opacity: 0.8;
+}
+
+.input_konten input{
+  margin-top: -7%;
+  width: 95%;
+  border: none;
+  border-bottom: 1px solid #9a9a9a;
+  font-size: 18px;
+  margin-left: 2.5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  outline: none;
+  font-weight: bold;
+  opacity: 0.9;
+}
+.notice{
+  font-size: 14px;
+  padding-left: 5%;
+  opacity: 0.8;
+  float: left;
+  clear: both;
+}
+#alertWarning{
+  font-size: 12px;
+  z-index: 10;
+}
+#alertWarning h1{
+  font-size: 20px;
+  position: absolute;
+  margin-top: -16%;
+  margin-left: 88%;
+  color: red;
+  z-index: 10;
+}
+#img_operator{
+  position: absolute;
+  width: 7%;
+  height: auto;
+  margin-left: -16%;
+  z-index: 4;
+}
+.img_kontak{
+  position: absolute;
+  width: 6%;
+  height: auto;
+  margin-left: -6%;
+  z-index: 5;
+}
+
+.produk_pulsa{
+  width: 95%;
+  min-height: 50px;
+  border-radius: 4px;
+  border-bottom: 1px solid #f1f1f1;
+  float: left;
+  margin-left: 2%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+  box-shadow: 0px 0px 5px -3px rgba(0,0,0,0.4);
+}
+.produk_pulsa h2{
+  font-size: 16px;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.produk_pulsa p{
+  font-size: 12px;
+  margin-left: 89%;
+  margin-top: -14%;
+  margin-bottom: 10%;  
+  opacity: 0.7;
+}
+.produk_pulsa h3{
+  font-size: 14px;
+  margin-top: -10%;
+  margin-left: 78%;
+  text-align: center;
+  color:#02BC7D;
+}
+#pulsa_indosat, #pulsa_simpati, #pulsa_xl,#pulsa_axis,#pulsa_tri,#pulsa_smartfren{
+  display: none;
+}
+
+#data_indosat, #data_simpati, #data_xl,#data_axis,#data_tri,#data_smartfren, #plnAll{
+  display: none;
+}
+
+
+#spinner_load{
+  opacity: 0.6;
+}
+#alertNomor{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  opacity: 1;
+  background-color: white;
+  margin-top: -45%;
+  z-index: 10;
+  display: none;
+}
+
+.mybutton3{
+ float: 10px;
+ width: 100%;
+      height: 50px;
+      padding: 5px;
+      margin: 0px;
+       
+      background-color: #02BC7D;
+    }
+    
+    .mybutton4{
+ float: 10px;
+ width: 100%;
+      height: 50px;
+      padding: 5px;
+      margin: 0px;
+       
+      background-color: #fff;
+    }
+    
+    .tittle { 
+ font-size: 18px; 
+ color: #02BC7D; 
+ font-family: 'Urbanist', sans-serif; 
+ font-weight: 700;
+ border:none;
+            outline: none;
+            width : 90%;
+}  
+
+.admin {
+ background-color:transparent;
+ font-family: 'Urbanist', sans-serif;
+ border-radius:100px;
+ color:#673ab7;
+ font-size: 13px;
+ text-decoration:none;
+ padding: 4px 1px 4px 0px;
+}
+
+.sidenav1 {
+  height: 700px;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0s;
+  border-radius: 2px;
+  margin-left: 0px;
+  top: 200px;  
+}
+
+.closebtn1 {
+  position: absolute;
+  top: 5;
+  right: 15px;
+  font-size: 30px;
+  margin-left: 50px;
+  color: #fff;  
+   z-index:1;
+}
+.mybutton2{
+left:0px;
+ width: 100%;
+      background-color: #02BC7D;
+    }
+       </style>
+       
+       <style type="text/css" media="all">
+       .body-alert h2{
+         font-size: 1.5rem;
+         position: absolute;
+         margin-top: -25%;
+         margin-left: 60%;
+         color: red;
+       }
+         #sectionBody{
+           display: none;
+         }
+         .loadeDataHome{
+           width: 100%;
+           height: 100%;
+           
+         }
+         .loaderSaldo{
+           width: 90%;
+           height: auto;
+           z-index: 1000;
+           margin-left: 5%;
+           background-color: white;
+           border-radius: 10px;
+         }
+         .loaderSaldo p{
+           background-color:#02BC7D ;
+           width: 100%;
+           min-height: 100px;
+           margin-top: -13%;
+           border-radius: 10px;
+           animation :up_down2 2s ease infinite;
+         }
+         .loaderBannee{
+           width: 100%;
+           min-height: auto;
+           margin-top: 5%;
+           
+         }
+         .loaderBannee p{
+           width: 90%;
+           min-height: 120px;
+           background-color: #02BC7D;
+           margin-left: 5%;
+           border-radius: 10px;
+           animation :up_down 2s ease infinite;
+         }
+         .loaderInfo{
+           width: 80%;
+           min-height: 70px;
+           border-right: 10px;
+           background-color: rgb(200,200,200);
+           border-radius: 10px;
+           margin-left: 10%;
+           padding-top: 5%;
+           margin-top: 5%;
+           animation :up_down 2s ease infinite;
+         }
+         .loaderInfo p{
+           width: 80%;
+           min-height: 10px;
+           margin-left: 10%;
+           border-radius: 1px;
+           background-color: rgb(238,237,237);
+           
+          
+           animation :up_down2 2s ease infinite;
+           
+         }
+         .loaderMenu{
+           width: 100%;
+           height: auto;
+         }
+         .loaderMenu p{
+           width: 20%;
+           min-height: 70px;
+           background-color: #02BC7D;
+           float: left;
+           margin-right: 2.5%;
+           margin-top: 10%;
+           margin-left: 2.5%;
+           border-radius: 20px;
+           background-image : url("https://i.postimg.cc/VLccMc11/20220125-191741.png");
+           background-size:cover; 
+           opacity: 0.8;
+           animation :up_down 2s ease infinite;
+         }
+         @keyframes up_down{
+            0%{
+                opacity: 1;
+            }
+            20%{
+                opacity: 0.7;
+            }
+            40%{
+                opacity: 0.4;
+            }
+            60%{
+                opacity: 0.5;
+            }
+            80%{
+                opacity: 0.7;
+            }
+            100%{
+                opacity: 0.9;
+            }
+        }
+
+       @keyframes up_down2{
+            0%{
+                opacity: 0.9;
+            }
+            20%{
+                opacity: 0.7;
+            }
+            40%{
+                opacity: 0.5;
+            }
+            60%{
+                opacity: 0.6;
+            }
+            80%{
+                opacity: 0.7;
+            }
+            100%{
+                opacity: 0.9;
+            }
+        }
+         
+         
+       </style>
+    <title>Home</title>
+    <body style="background-color:#fff;">
+  <section class="header-img">
+      <div class="header">
+        <img src="https://i.postimg.cc/qMZgMq7F/20220110-071735.png" alt="" />
+     </div>
+     <div class="clear:both;">
+     </div>
+     <div class="header-body">
+       <div class="menu-header1">
+         <h2 style="color: #000000;font-weight: 700;font-family: 'Urbanist', sans-serif;">Saldo</h2>
+         <h1 id="saldo_user">Rp{{saldo_user}}</h1>
+       </div>
+     </div>
+     <div class="header-body">
+       <div class="menu-header">
+         <img onclick='link("#")' class="" src="https://i.ibb.co/B4YYdZR/20220123-070729.png" alt="" />
+         <h3>TopUp</h3>
+       </div>
+       <div class="menu-header">
+         <img onclick='link("#")' class="" src="https://i.ibb.co/KXkq4Vr/20220123-071155.png" alt="" />
+         <h3>Send</h3>
+       </div>
+       <div class="menu-header">
+         <img onclick='link("#")' class="" src="https://i.ibb.co/4YfJgQT/20220123-071641.png" alt="" />
+         <h3>Draw</h3>
+       </div>
+     </div>
+     <div class="mybutton2" style="top: 0px;position: fixed;z-index: 10;padding-left: 50px;border-radius:0px;height: 40px;">
+      <div class="header2">
+       <a href="https://vigenshop.tokowebku.com/akun/?page=notifikasi"><img style="height: auto;box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);z-index: 30;border-radius: 10px;left: 320px;width:7%;top: 5px;position: fixed;" src="https://i.ibb.co/GkVrtH8/20220127-231633.png"></a>
+       </div>
+      </div>
+  </section>
+  
+  <section class="inputKonten">
+   <div class="bg-body-input">
+    <div onclick="borderBottom(pulsa, paketData, pln, b)" id="pulsa" class="menu-input">
+      <img src="https://i.postimg.cc/gJRC4JhS/20220123-155809.png" alt="" />
+      <h1>Pulsa</h1>
+    </div>
+    <div onclick="borderBottom(paketData, pulsa, pln, b)" id="data" class="menu-input">
+      <img src="https://i.postimg.cc/x82WZ2y0/20220123-155859.png" alt="" />
+      <h1>Data</h1>
+    </div>
+    <div onclick="borderBottom(pln, paketData, pulsa, b)" id="pln" class="menu-input">
+      <img src="https://i.postimg.cc/3NFP5cn2/20220123-155930.png" alt="" />
+      <h1>Token</h1>
+    </div>
+  </div>
+  <div class="body-input">
+    <img onclick='link("https://vigenshop.tokowebku.com/digital/84329")' src="https://i.postimg.cc/RCpYfK2S/20220123-160848.png" alt="" />
+   <form action="" method="get" accept-charset="utf-8">
+     <input onkeyup="plnAllCeked()" oninput="cekNomorTelponUser()" type="number" name="" id="nomor" value="" placeholder="085XXXXX" autofocus="">
+   </form>
+  </div>
+  </section>
+  
+  <!-- PULSA ALL OPERATOR -->
+<section id="pulsaAllOperator">
+  
+  <!-- PULSA INDOSAT -->
+  <section id="pulsa_indosat">
+    <br /><br /><br /><br />
+   <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/indosat-5-000-958201')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Indosat 5.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 5.850</h3>
+     </div>
+     
+     <!-- PULSA INDOSAT 2-->
+   <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/indosat-10-000-958202')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Indosat 10.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 10.850</h3>
+     </div>
+     
+     <!-- PULSA INDOSAT 3-->
+    <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/indosat-15-000-958203')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Indosat 15.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 15.600</h3>
+     </div>
+     
+     <!-- PULSA INDOSAT 4-->
+    <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/indosat-20-000-958204')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Indosat 20.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 20.400</h3>
+     </div>
+     
+     <!-- PULSA INDOSAT 5-->
+    <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/indosat-25-000-958206')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Indosat 25.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 25.300</h3>
+     </div>
+     
+     <!-- PULSA INDOSAT 6-->
+    <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/indosat-30-000-958207')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Indosat 30.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 30.000</h3>
+     </div>
+     
+     <!-- PULSA INDOSAT 7-->
+    <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/indosat-40-000-958208')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Indosat 40.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 39.800</h3>
+     </div>
+     
+     <!-- PULSA INDOSAT 8-->
+   <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/indosat-50-000-958209')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Indosat 50.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 49.500</h3>
+     </div>
+     
+     <!-- PULSA INDOSAT 9-->
+    <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/indosat-60-000-958212')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Indosat 60.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 59.200</h3>
+     </div>
+     
+     <!-- PULSA INDOSAT 10-->
+    <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/indosat-70-000-958227')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Indosat 70.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 68.500</h3>
+     </div>
+   
+   <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/indosat-80-000-958228')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Indosat 80.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 78.100</h3>
+     </div>
+     
+     <!-- PULSA INDOSAT 2-->
+   <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/indosat-90-000-958237')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Indosat 90.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 87.500</h3>
+     </div>
+     
+     <!-- PULSA INDOSAT 3-->
+    <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/indosat-100-000-958239')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Indosat 100.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 97.000</h3>
+     </div>
+   
+     </section>
+<!-- PULSA TELKOMSEL -->
+<section id="pulsa_simpati">
+   <br /><br /><br /><br /> 
+   <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/telkomsel-5-000-933756')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Telkomsel 5.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 6.000</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/telkomsel-10-000-933757')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Telkomsel 10.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 10.500</h3>
+     </div>
+
+<div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/telkomsel-15-000-933758')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Telkomsel 15.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 15.500</h3>
+     </div>
+
+<div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/telkomsel-20-000-933759')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Telkomsel 20.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 20.500</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/telkomsel-25-000-933760')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Telkomsel 25.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 25.000</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/telkomsel-30-000-933761')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Telkomsel 30.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 30.100</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/telkomsel-35-000-933762')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Telkomsel 35.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 35.500</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/telkomsel-40-000-933763')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Telkomsel 40.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 40.100</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/telkomsel-45-000-933765')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Telkomsel 45.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 45.500</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/telkomsel-50-000-934017')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Telkomsel 50.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 50.100</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/telkomsel-60-000-934095')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Telkomsel 60.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 60.200</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/telkomsel-70-000-934096')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Telkomsel 70.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 70.200</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/telkomsel-80-000-934097')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Telkomsel 80.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 80.100</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/telkomsel-90-000-934098')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Telkomsel 90.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 90.200</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/telkomsel-100-000-934099')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Telkomsel 100.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 98.000</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/telkomsel-200-000-934100')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Telkomsel 200.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 197.000</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/telkomsel-500-000-934101')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Telkomsel 500.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 485.000</h3>
+     </div>
+     
+     
+     </section>
+<!-- PULSA XL -->
+<section id="pulsa_xl">
+    <br /><br /><br /><br />
+   <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/xl-5-000-959389')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">XL 5.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 6.000</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/xl-10-000-959390')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">XL 10.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 10.850</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/xl-15-000-959393')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">XL 15.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 15.100</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/xl-25-000-959394')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">XL 25.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 24.500</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/xl-30-000-959397')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">XL 30.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 29.500</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/xl-50-000-959400')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">XL 50.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 49.550</h3>
+     </div>
+   
+   <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/xl-100-000-959401')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">XL 100.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 98.280</h3>
+     </div>
+   
+     </section>
+     
+ 
+<!-- PULSA AXIS -->
+<section id="pulsa_axis">
+    <br /><br /><br /><br />
+   <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/axis-5-000-959309')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Axis 5.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 6.000</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/axis-10-000-959311')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Axis 10.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 11.000</h3>
+     </div>
+   
+   <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/axis-15-000-959315')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Axis 15.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 15.150</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/axis-25-000-959324')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Axis 25.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 24.850</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/axis-30-000-959329')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Axis 30.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 30.000</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/axis-50-000-959337')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Axis 50.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 49.700</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/axis-100-000-959338')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Axis 100.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 98.800</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/axis-200-000-959340')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Axis 200.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 197.500</h3>
+     </div>
+   
+     </section>
+
+
+<!-- PULSA TRI -->
+<section id="pulsa_tri">
+   <br /><br /><br /><br /> 
+   <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/three-5-000-959353')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Tri 5.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 5.600</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/three-10-000-959355')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Tri 10.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 10.400</h3>
+     </div>
+
+<div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/three-15-000-959357')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Tri 15.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 15.000</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/three-20-000-959358')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Tri 20.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 19.800</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/three-25-000-959360')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Tri 25.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 24.500</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/three-30-000-959363')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Tri 30.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 29.350</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/three-40-000-959364')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Tri 40.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 38.850</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/three-50-000-959365')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Tri 50.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 48.300</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/three-75-000-959370')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Tri 75.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 72.000</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/three-80-000-959378')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Tri 80.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 76.250</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/three-100-000-959379')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Tri 100.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 95.700</h3>
+     </div>
+     
+     
+   
+   
+     </section>
+
+<!-- PULSA SMARTFREN -->
+<section id="pulsa_smartfren">
+    <br /><br /><br /><br />
+   <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/smartfren-5-000-958674')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Smartfren 5.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 5.500</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/smartfren-10-000-958677')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Smartfren 10.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 10.400</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/smartfren-15-000-958685')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Smartfren 15.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 15.400</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/smartfren-20-000-958688')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Smartfren 20.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 20.100</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/smartfren-25-000-958689')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Smartfren 25.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 24.500</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/smartfren-30-000-958691')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Smartfren 30.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 29.500</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/smartfren-50-000-958694')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Smartfren 50.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 49.000</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/smartfren-60-000-958695')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Smartfren 60.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 59.200</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/smartfren-75-000-958702')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Smartfren 75.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 74.400</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/smartfren-100-000-958704')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Smartfren 100.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 97.000</h3>
+     </div>
+     
+     <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/smartfren-150-000-958705')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Smartfren 150.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 147.500</h3>
+     </div>
+   
+   
+     </section>
+     
+</section>
+
+<!-- PAKET DATA ALL OPERATOR -->
+<section id="dataAllOperator">
+  
+  <!-- PULSA INDOSAT -->
+  <section id="data_indosat">
+    <br /><br /><br /><br />
+   <div class="produk_pulsa" id="produk" onclick="kirimData('#')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Data Indosat Belum Tersedia</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp -</h3>
+     </div>
+     
+     
+   
+     </section>
+<!-- PULSA TELKOMSEL -->
+<section id="data_simpati">
+    <br /><br /><br /><br />
+   <div class="produk_pulsa" id="produk" onclick="kirimData('#')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Data Telkomsel Belum Tersedia</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp -</h3>
+     </div>
+     
+   
+     </section>
+<!-- PULSA XL -->
+<section id="data_xl">
+    <br /><br /><br /><br />
+   <div class="produk_pulsa" id="produk" onclick="kirimData('#')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Data XL Belum Tersedia</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp -</h3>
+     </div>
+     
+     
+   
+   
+     </section>
+     
+ 
+<!-- PULSA AXIS -->
+<section id="data_axis">
+    <br /><br /><br /><br />
+   <div class="produk_pulsa" id="produk" onclick="kirimData('#')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Data Axis Belum Tersedia</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp -</h3>
+     </div>
+     
+     
+   
+     </section>
+
+
+<!-- PULSA TRI -->
+<section id="data_tri">
+    <br /><br /><br /><br />
+   <div class="produk_pulsa" id="produk" onclick="kirimData('#')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Data Tri Belum Tersedia</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp -</h3>
+     </div>
+     
+     
+   
+     </section>
+
+<!-- PULSA SMARTFREN -->
+<section id="data_smartfren">
+   <br /><br /><br /><br /> 
+   <div class="produk_pulsa" id="produk" onclick="kirimData(''#')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">Data Smartfren Belum Tersedia</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp -</h3>
+     </div>
+     
+     
+     </section>
+     
+</section>
+<!-- PLN -->
+<section id="plnAll">
+  <br /><br /><br /><br />
+   <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/PLN-20.000-943358')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">PLN 20.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 19.500</h3>
+     </div>
+     
+     <!-- PULSA INDOSAT 2-->
+   <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/PLN-50.000-943360')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">PLN 50.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 50.100</h3>
+     </div>
+     
+     <!-- PULSA INDOSAT 3-->
+    <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/PLN-100.000-943364')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">PLN 100.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 102.000</h3>
+     </div>
+     
+     <!-- PULSA INDOSAT 4-->
+    <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/PLN-200.000-943365')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">PLN 200.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 202.000</h3>
+     </div>
+     
+     <!-- PULSA INDOSAT 5-->
+    <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/PLN-500.000-943367')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">PLN 500.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 502.000</h3>
+     </div>
+     
+     <!-- PULSA INDOSAT 6-->
+    <div class="produk_pulsa" id="produk" onclick="kirimData('https://vigenshop.tokowebku.com/produk/PLN-1.000.000-943370')">
+     <!-- PRODUK 1 -->
+      <h2 id="nama_barang" style="font-weight: 600;color: #757575;font-size: 14px;">PLN 1000.000</h2>
+      <p>Harga</p>
+      <h3 id="harga_barang">Rp 1002.000</h3>
+     </div>
+     </section>
+  
+  <br /><br /><br />
+<section id="thisBody" class="thisBody">
+<div id="jssor_1" class="jsO "> 
+   <div data-u="loading" class="jssorl-009-spin js1"> 
+     <img class="jsImg" src="https://i.postimg.cc/qMZgMq7F/20220110-071735.png" /> 
+   </div>
+   <div data-u="slides" class="js2"> 
+ 
+  <div> 
+    <img id="imgSlider" class="img-slide" data-u="image" src="https://i.ibb.co/rGY4NTy/20230219-104745.jpg" />
+  </div>
+   
+  <div> 
+     <img id="imgSlider" class="img-slide" data-u="image" src="https://i.ibb.co/rGY4NTy/20230219-104745.jpg" />
+   </div> 
+   
+   <div> 
+       <img id="imgSlider" class="img-slide" data-u="image" src="https://i.ibb.co/rGY4NTy/20230219-104745.jpg" />
+   </div>
+   <div> 
+       <img id="imgSlider" class="img-slide" data-u="image" src="https://i.ibb.co/rGY4NTy/20230219-104745.jpg" />
+   </div>
+     </div> 
+      </div> 
+<section id="sectionBody">
+<div class="spanAlert">
+ <p>Lihat Semua</p>
+</div>
+
+<div id="hilang" class="infoAlert">
+  <div class="header-alert">
+    <img src="https://i.postimg.cc/NfSwdmV4/20220123-091823.png" alt="" />
+  </div>
+  <div class="body-alert">
+    <h1>Informasi Dan Panduan</h1> 
+    <p>baca selengkapnya <a href="#">disini!</a></p>
+    <h2 onclick="clelaring()">×</h2>
+  </div>
+</div>
+
+
+<section class="header-menu-body">
+  <h1>Pembelian</h1>
+  <div class="menu-konten">
+    <img onclick='link("https://vigenshop.tokowebku.com/digital/84329")' src="https://i.ibb.co/cN7XQLQ/20220123-072311.png" alt="" />
+    <h2>Pulsa</h2>
+  </div>
+  <div class="menu-konten">
+    <img onclick='link("https://vigenshop.tokowebku.com/digital/84404")' src="https://i.ibb.co/zQ9qQk2/20220123-073259.png" alt="" />
+    <h2>Paket Data</h2>
+  </div>
+  <div class="menu-konten">
+    <img onclick='link("https://vigenshop.tokowebku.com/digital/83788")' src="https://i.ibb.co/9cvSmvf/20220123-073436.png" alt="" />
+    <h2>Token PLN</h2>
+  </div>
+  <div class="menu-konten">
+    <img onclick='link("https://vigenshop.tokowebku.com/digital/91131")' src="https://i.postimg.cc/P5B0QyBb/20220123-080028.png" alt="" />
+    <h2>SMS & Telpon</h2>
+  </div>
+  <div class="menu-konten">
+    <img onclick='link("https://vigenshop.tokowebku.com/digital/84328")' src="https://i.postimg.cc/Zqp273SG/20220123-080134.png" alt="" />
+    <h2>Pulsa Transfer</h2>
+  </div>
+  <div class="menu-konten">
+    <img onclick='link("#")' src="https://i.postimg.cc/k4yZ9mDw/20220123-080217.png" alt="" />
+    <h2>International</h2>
+  </div>
+  <div class="menu-konten">
+    <img onclick='link("#")' src="https://i.postimg.cc/zvXQGcgN/20220123-080302.png" alt="" />
+    <h2>Voucher PGN</h2>
+  </div>
+  <div class="menu-konten">
+    <img onclick='link("https://vigenshop.tokowebku.com/digital/84319")' src="https://i.postimg.cc/5y7RYSBC/20220123-080416.png" alt="" />
+    <h2>By.U</h2>
+  </div>
+  <div style="clear:both;">
+  </div>
+  <div class="menu-konten">
+    <img onclick='link("#")' src="https://i.postimg.cc/ydWpZrPy/20220123-081025.png" alt="" />
+    <h2>Voucher</h2>
+  </div>
+<div class="menu-konten">
+    <img onclick='link("https://vigenshop.tokowebku.com/digital/84013")' src="https://i.postimg.cc/y6gr6tWV/20220123-081139.png" alt="" />
+    <h2>Gaming</h2>
+  </div>
+  <div class="menu-konten">
+    <img onclick='link("#")' src="https://i.postimg.cc/DZDjddpk/20220123-081232.png" alt="" />
+    <h2>Voucher TV</h2>
+  </div>
+  <div class="menu-konten">
+    <img onclick='link("https://vigenshop.tokowebku.com/digital/92603")' src="https://i.postimg.cc/cCnDDgPK/20220123-081335.png" alt="" />
+    <h2>Voucher Digital</h2>
+  </div>
+  <div class="menu-konten">
+    <img onclick='link("https://vigenshop.tokowebku.com/digital/92286")' src="https://i.postimg.cc/wjyBw6jC/20220123-082632.png" alt="" />
+    <h2>Streaming</h2>
+  </div>
+  <div class="menu-konten">
+    <img onclick='link("https://vigenshop.tokowebku.com/digital/83923")' src="https://i.postimg.cc/9fyQjJT1/20220123-082718.png" alt="" />
+    <h2>Dompet Elektronik</h2>
+  </div>
+  <div class="menu-konten">
+    <img onclick='link("https://vigenshop.tokowebku.com/digital/91318")' src="https://i.postimg.cc/htktwHJf/20220123-082831.png" alt="" />
+    <h2>Uang Elektronik</h2>
+  </div>
+  <div class="menu-konten">
+    <img onclick='link("https://vigenshop.tokowebku.com/digital/90401")' src="https://i.postimg.cc/j5KdqP4T/20220123-082940.png" alt="https://codashop.com" />
+    <h2>Ojek Online</h2>
+  </div>
+  <div style="clear:both;">
+  </div>
+</section>
+
+<section class="header-menu-body">
+  <h1>Pembayaran</h1>
+  <div class="menu-konten">
+    <img onclick='link("https://vigenshop.tokowebku.com/digital/83788")' src="https://i.postimg.cc/xqr97mCB/20220123-085301.png" alt="" />
+    <h2>Listrik</h2>
+  </div>
+  <div class="menu-konten">
+    <img onclick='link("#")' src="https://i.postimg.cc/CMRD3V54/20220123-085427.png" alt="" />
+    <h2>Pascabayar</h2>
+  </div>
+  <div class="menu-konten">
+    <img onclick='link("#")' src="https://i.postimg.cc/3NGkdYD5/20220123-085552.png" alt="" />
+    <h2>Air (PDAM)</h2>
+  </div> 
+  <div class="menu-konten">
+    <img onclick='link("https://vigenshop.tokowebku.com/digital/89826")' src="https://i.postimg.cc/jqBNKkJY/20220123-085629.png" alt="" />
+    <h2>PGN (Gas)</h2>
+  </div>
+  <div style="clear:both;">
+  </div>
+  <div class="menu-konten">
+    <img onclick='link("#")' src="https://i.postimg.cc/NFB4xJ8n/20220123-083915.png" alt="" />
+    <h2>PBB</h2>
+  </div>
+  <div class="menu-konten">
+    <img onclick='link("https://vigenshop.tokowebku.com/digital/84022")' src="https://i.postimg.cc/prCBcfqL/20220123-084137.png" alt="" />
+    <h2>Televisi</h2>
+  </div>
+  <div class="menu-konten">
+    <img onclick='link("https://vigenshop.tokowebku.com/digital/89410")' src="https://i.postimg.cc/ncV2jWhj/20220123-084235.png" alt="" />
+    <h2>Tagihan Internet</h2>
+  </div>
+  <div class="menu-konten">
+    <img onclick='link("https://vigenshop.tokowebku.com/digital/89141")' src="https://i.postimg.cc/pVJkdvRM/20220123-084423.png" alt="" />
+    <h2>BPJS</h2>
+  </div>
+  <div style="clear:both;">
+  </div>
+</section>
+
+</section></section>
+  <section id="loadeDataHome" class="loadeDataHome">
+  <br /><br /><br />
+  <div class="loaderSaldo">
+    <p></p>
+  </div>
+</section>
+
+<script type="text/javascript">jssor_1_slider_init(); </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src="js.js"></script>
+    
+    <script type="text/javascript" charset="utf-8">
+      let pulsa = document.getElementById('pulsa');
+let paketData = document.getElementById('data');
+let pln = document.getElementById('pln');
+
+
+function cekNomorTelponUser(){
+  // operator
+  let bodyMenu = document.getElementById("thisBody");
+  
+  // input user
+  let b = document.getElementById("nomor").value;
+  
+  let plnCek = document.getElementById('plnAll');
+  
+  // pulsa Indosat
+  let pulsaIndosat = document.getElementById("pulsa_indosat");
+   // pulsa Simpati
+  let pulsaSimpati = document.getElementById("pulsa_simpati");
+   // pulsa Simpati
+  let pulsaXl = document.getElementById("pulsa_xl");
+   // pulsa Simpati
+  let pulsaAxis = document.getElementById("pulsa_axis");
+   // pulsa Simpati
+  let pulsaTri = document.getElementById("pulsa_tri");
+   // pulsa Simpati
+  let pulsaSmartfren = document.getElementById("pulsa_smartfren");
+  
+  let pulsaAllOperator = document.getElementById("pulsaAllOperator");
+  
+  let dataAllOperator = document.getElementById("dataAllOperator");
+  
+  // paket data All operator
+ 
+  // pulsa Indosat
+  let dataIndosat = document.getElementById("data_indosat");
+   // pulsa Simpati
+  let dataSimpati = document.getElementById("data_simpati");
+   // pulsa Simpati
+  let dataXl = document.getElementById("data_xl");
+   // pulsa Simpati
+  let dataAxis = document.getElementById("data_axis");
+   // pulsa Simpati
+  let dataTri = document.getElementById("data_tri");
+  // Smartfren
+  let dataSmartfren = document.getElementById("data_smartfren");
+
+  let x = b.replace(/[^0-9]/g).substring(0, 4);
+  
+  if (x == null || x == ' ' || x < 4  || x == "") {
+    // pulsa all
+    pulsaIndosat.style.display = "none";
+    pulsaSimpati.style.display = "none";
+    pulsaXl.style.display = "none";
+    pulsaAxis.style.display = "none";
+    pulsaTri.style.display = "none";
+    pulsaSmartfren.style.display = "none";
+    plnCek.style.display = "none";
+   // paket dataAllOperator 
+    dataIndosat.style.display = "none";
+    dataSimpati.style.display = "none";
+    dataXl.style.display = "none";
+    dataAxis.style.display = "none";
+    dataTri.style.display = "none";
+    dataSmartfren.style.display = "none";
+  }
+  else if(x == 08){
+    plnCek.style.display = "none";
+    bodyMenu.style.display = "block";
+    pulsaIndosat.style.display = "none";
+    pulsaSimpati.style.display = "none";
+    pulsaXl.style.display = "none";
+    pulsaAxis.style.display = "none";
+    pulsaTri.style.display = "none";
+    pulsaSmartfren.style.display = "none";
+    // data all 
+    dataIndosat.style.display = "none";
+    dataSimpati.style.display = "none";
+    dataXl.style.display = "none";
+    dataAxis.style.display = "none";
+    dataTri.style.display = "none";
+    dataSmartfren.style.display = "none";
+    
+    // NOMOR TRI
+  }else if(x == 0895 || x == 0896 || x == 0897 || x == 0898 || x == 0899){
+    pulsaTri.style.display = "block";
+    dataTri.style.display = "block";
+    bodyMenu.style.display = "none";
+    // NOMOR AXIS
+  }else if(x == 0838 || x == 0831 || x == 0832 || x == 0833){
+    dataAxis.style.display = "block";
+    pulsaAxis.style.display = "block";
+    bodyMenu.style.display = "none";
+  // NOMOR INDOSAT
+ } else if(x == 0814 || x == 0815 || x == 0816 || x == 0855 || x == 0856 || x == 0857 || x == 0858){
+    pulsaIndosat.style.display = "block";
+    dataIndosat.style.display = "block";
+    bodyMenu.style.display = "none";
+    // NOMOR XL
+  }else if (x == 0818 || x == 0817 || x == 0819 || x == 0859 || x == 0877 || x == 0878) {
+    pulsaXl.style.display = "block";
+    dataXl.style.display = "block";
+    bodyMenu.style.display = "none";
+    // NOMOR SMARTFREN
+  }else if(x == 0881 || x == 0882 || x == 0883 || x == 0884 || x == 0885 || x == 0886 || x == 0887 || x == 0888 || x == 0889){
+    pulsaSmartfren.style.display = "block";
+    dataSmartfren.style.display = "block";
+    bodyMenu.style.display = "none";
+    //  NOMOR TELKOMSEL
+  }else if (x == 0811 || x == 0812 || x == 0813 || x == 0821 || x == 0822 || x == 0852 || x == 0853 || x == 0823 || x == 0851 || x == 0835) {
+    pulsaSimpati.style.display = "block";
+    dataSimpati.style.display = "block";
+    bodyMenu.style.display = "none";
+  }
+}
+
+let b = document.getElementById("nomor");
+let pulsaAll = document.getElementById('pulsaAllOperator');
+  let dataAll = document.getElementById('dataAllOperator');
+  let plnAll = document.getElementById('plnAll');
+
+function borderBottom(data, none1, none2, inputin) {
+  let bodyMenu = document.getElementById("thisBody");
+  
+let pulsa = document.getElementById('pulsa');
+let paketData = document.getElementById('data');
+let pln = document.getElementById('pln');
+  
+  let borderBtm = "border-bottom: 5px solid #02BC7D;";
+  let noneAktif = "border-bottom: 1px solid rgb(205,205,205)";
+  
+  data.style = borderBtm;
+  none1.style = noneAktif;
+  none2.style = noneAktif;
+  bodyMenu.style = "block";
+  cekNomorTelponUser();
+  
+  if (data == pulsa) {
+    pulsaAll.style.display = "block";
+    dataAll.style.display = "none";
+    plnAll.style.display = "none";
+  }else if (data == paketData) {
+    dataAll.style.display = "block";
+    plnAll.style.display = "none";
+    pulsaAll.style.display = "none";
+  }else if (data == pln) {
+    plnAll.style.display = "none";
+    dataAll.style.display = "none";
+    pulsaAll.style.display = "none";
+  }else{
+    cekNomorTelponUser();
+  }
+}
+
+function plnAllCeked(){
+  let plnCek = document.getElementById('plnAll');
+  let c = document.getElementById('nomor').value;
+  let home = document.getElementById('thisBody');
+  
+  if(c.length > 15){
+  plnCek.style.display = "block";
+  home.style.display = "none";
+  }else if(c.length < 2){
+    home.style.display = "block";
+    plnCek.style.display = "none";
+  }
+  
+  else {
+    cekNomorTelponUser();
+  }
+}
+
+
+
+function akhirFinishingBug(){
+  let bodyMenunew = document.getElementById("thisBody");
+  let cnew = document.getElementById('nomor').value;
+  let pulsanew = document.getElementById('pulsa');
+let paketDatanew = document.getElementById('data');
+let plnnew = document.getElementById('pln');
+  
+  if(cnew.length == 0 || cnew == null || cnew == "" || cnew == []){
+    bodyMenunew.style.display = "block";
+    pulsanew.style.display = "none";
+    paketDatanew.style.display = "none";
+    plnnew.style.display = "none";
+  }else{
+    cekNomorTelponUser();
+  }
+}
+
+
+function kirimData(url) {
+  let catatan = "?catatan=";
+  let nomorTelpon = document.getElementById("nomor").value;
+  window.location.href = url+catatan+nomorTelpon;
+}
+    </script>
+
+   <!-- Letakkan script dibagian paling bawah halaman -->
+    <script type="text/javascript">
+      function rubah(angka){
+        var reverse = angka.toString().split('').reverse().join(''),
+        ribuan = reverse.match(/\d{1,3}/g);
+        ribuan = ribuan.join('.').split('').reverse().join('');
+        return "Rp"+ribuan;
+      }
+      document.getElementById("saldo_user").innerText=rubah(document.getElementById("saldo_user").textContent);
+      
+      document.getElementById("id_user").innerText=rubah(document.getElementById("id_user").textContent);
+    </script>
+    <script type="text/javascript" charset="utf-8">
+
+        function link(url){
+          window.location.href = url;
+        }
+        function clelaring() {
+          document.getElementById('hilang').style.display = "none";
+        } 
+ 
+      </script>
+     <script>
+var loadingggg = document.getElementById("loadeDataHome");
+var tampilkanData = document.getElementById("sectionBody");
+
+var loadImg = document.getElementById("thisBody");
+// url tujuan
+            var countuu = 2; // dalam detik
+            function countDown2() {
+                if (countuu > 0) {
+                    countuu--;
+                    setTimeout("countDown2()", 1000);
+                } else {
+                    loadingggg.style.display="none";
+                    tampilkanData.style.display="block";
+                    loadImg.style.display="block";
+                }
+            }
+            countDown2();
+  </script> 
+      
+  </body>
+</html>
